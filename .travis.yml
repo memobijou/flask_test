@@ -1,4 +1,6 @@
 language: python
-rvm:
+python:
   - 3.2.6
+  - nightly
 script:
+  - tests
