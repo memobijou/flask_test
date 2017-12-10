@@ -9,5 +9,5 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get("/")
         assert b'hello world ab' in rv.data
 
-if __name__ == "main":
+if __name__ == '__main__':
     unittest.main()
