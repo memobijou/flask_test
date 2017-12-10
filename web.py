@@ -4,4 +4,4 @@ app=Flask(__name__)
 
 @app.route("/")
 def index():
-    return "hello Osman, wie gehts "
+    return "hello Osman, wie gehts gut?"
