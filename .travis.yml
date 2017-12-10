@@ -1,7 +1,7 @@
 language: python
 python:
   - "3.6.2"
-  - "nightly"
+#  - "nightly"
 # command to install dependencies
 install:
   - pip install -r requirements.txt
